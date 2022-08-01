@@ -1,0 +1,43 @@
+body{
+    background-color:  bisque;
+}
+
+
+.titulo-1{
+    color:crimson;
+    background-color: black ; width: 165px;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+
+.cabecera{
+    background: black;
+}
+
+.cabecera__pagina{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecera__pagina a{
+    text-decoration: none;
+    color:darkred
+}
+    
+.cabecera__lista__items{
+    list-style: none;
+    font-size: 30px;
+}
+
+.cabecera__logo{
+    width: 5vw;
+}
+
+.imagen-hvsa{
+    width: 200vh;
+}
