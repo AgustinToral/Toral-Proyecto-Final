@@ -41,4 +41,35 @@ body {
   width: 200vh;
 }
 
+.imagen__bronce {
+  width: 300px;
+}
+
+.imagen-dohkoLC {
+  width: 300px;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  grid-template-rows: 15vh repeat(2, 20vw) 15vh;
+  grid-template-areas: "l1 c1 r1" "l2 c2 r2" "l3 c3 r3";
+}
+
+.section-titulo {
+  grid-area: c1;
+}
+
+.section-hvsc {
+  grid-area: l2;
+}
+
+.section-bronce {
+  grid-area: l3;
+}
+
+aside {
+  grid-area: r2;
+}
+
 /*# sourceMappingURL=style.css.map */
