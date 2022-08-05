@@ -75,12 +75,32 @@ body {
   align-items: center;
 }
 
-.imagen-noticia-1 {
-  width: 400px;
+.imagen-noticia1 {
+  width: 15vw;
 }
 
-.imamgen-noticia-2 {
-  width: 400px;
+.imamgen-noticia2 {
+  width: 15vw;
+}
+
+.imamgen-noticia3 {
+  width: 15vw;
+}
+
+.imagen-noticia4 {
+  width: 15vw;
+}
+
+.flex__noticia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__noticia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .manga-original {
