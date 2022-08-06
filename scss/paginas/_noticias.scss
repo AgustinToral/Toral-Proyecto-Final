@@ -7,11 +7,11 @@
 }
 
 .imamgen-noticia3{
-    width: 15vw;
+    width: 13vw;
 }
 
 .imagen-noticia4{
-    width: 15vw;
+    width: 13vw;
 }
 
 .flex__noticia{
@@ -22,9 +22,15 @@
 
 .section__noticia{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-around
 
+}
+
+.contendor__noticia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 

@@ -84,11 +84,11 @@ body {
 }
 
 .imamgen-noticia3 {
-  width: 15vw;
+  width: 13vw;
 }
 
 .imagen-noticia4 {
-  width: 15vw;
+  width: 13vw;
 }
 
 .flex__noticia {
@@ -99,8 +99,14 @@ body {
 
 .section__noticia {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contendor__noticia {
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .manga-original {
