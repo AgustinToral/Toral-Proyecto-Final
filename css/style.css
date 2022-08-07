@@ -125,6 +125,10 @@ body {
   color: gold;
 }
 
+.imagen__dorados {
+  width: 98vw;
+}
+
 #dorados {
   color: cornflowerblue;
 }
@@ -141,16 +145,44 @@ body {
   color: blueviolet;
 }
 
-.colornegro {
-  color: black;
+#mascara-de-muerte span {
+  color: darkblue;
 }
 
-p {
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  text-align: justify;
-  background-color: bisque;
+#aioria span {
+  color: chocolate;
+}
+
+#shaka span {
+  color: goldenrod;
+}
+
+#dohko span {
+  color: darkcyan;
+}
+
+#milo span {
+  color: darkorchid;
+}
+
+#aioros span {
+  color: peru;
+}
+
+#shura span {
+  color: tan;
+}
+
+#camus span {
+  color: deepskyblue;
+}
+
+#afrodita span {
+  color: hotpink;
+}
+
+.colornegro {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
