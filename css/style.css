@@ -63,7 +63,7 @@ body {
   align-items: center;
 }
 
-.section__titulo {
+.flex__titulo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,22 +79,18 @@ body {
   width: 15vw;
 }
 
-.imamgen-noticia2 {
+.imagen-noticia2 {
   width: 15vw;
 }
 
-.imamgen-noticia3 {
+.imagen-noticia3 {
   width: 13vw;
+  margin-right: 3vw;
 }
 
 .imagen-noticia4 {
   width: 13vw;
-}
-
-.flex__noticia {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 3vw;
 }
 
 .section__noticia {
@@ -103,22 +99,88 @@ body {
   justify-content: space-around;
 }
 
-.contendor__noticia {
+.contenedor__noticia {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.contenedor__noticia img {
+  padding: 1vw;
+}
+
 .manga-original {
-  width: 250px;
+  width: 15vw;
 }
 
 .manga-tlc {
-  width: 250px;
+  width: 15vw;
 }
 
 .manga-nd {
-  width: 250px;
+  width: 15vw;
+}
+
+.manga-sh {
+  width: 15vw;
+}
+
+.flex__manga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contenedor__manga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animeoriginal {
+  width: 26vw;
+}
+
+.animeasgard {
+  width: 26vw;
+}
+
+.animeposeidon {
+  width: 21vw;
+}
+
+.flex__anime {
+  display: flex;
+  flex-direction: row;
+  justify-content: first baseline;
+}
+
+.animehades {
+  width: 18vw;
+}
+
+.animehadess {
+  width: 17vw;
+}
+
+.animehadese {
+  width: 18vw;
+}
+
+.animehadesi {
+  width: 18vw;
+}
+
+.animehadesc {
+  width: 18vw;
+}
+
+.sssog {
+  width: 18vw;
+}
+
+.sstlc {
+  width: 18vw;
 }
 
 .titulo__dorado {

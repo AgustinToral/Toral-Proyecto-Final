@@ -1,11 +1,72 @@
 .manga-original{
-    width: 250px;
+    width: 15vw;
 }
 
 .manga-tlc{
-    width: 250px;
+    width: 15vw;
 }
 
 .manga-nd{
-    width: 250px;
+    width: 15vw;
+}
+.manga-sh{
+    width: 15vw;
+}
+
+.flex__manga{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor__manga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animeoriginal{
+    width: 26vw;
+}
+
+.animeasgard{
+    width: 26vw;
+}
+
+.animeposeidon{
+    width: 21vw;
+}
+
+.flex__anime{
+    display: flex;
+    flex-direction:row;
+    justify-content:first baseline;
+}
+
+.animehades{
+    width: 18vw;
+}
+
+.animehadess{
+    width: 17vw;
+}
+
+.animehadese{
+    width: 18vw;
+}
+
+.animehadesi{
+    width: 18vw;
+}
+
+.animehadesc{
+    width: 18vw;
+}
+
+.sssog{
+    width: 18vw;
+}
+
+.sstlc{
+    width: 18vw;
 }

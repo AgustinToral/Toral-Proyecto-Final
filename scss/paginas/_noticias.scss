@@ -2,23 +2,19 @@
     width: 15vw;
 }
 
-.imamgen-noticia2{
+.imagen-noticia2{
     width: 15vw;
 }
 
-.imamgen-noticia3{
+.imagen-noticia3{
     width: 13vw;
+    margin-right: 3vw;
 }
 
 .imagen-noticia4{
     width: 13vw;
-}
-
-.flex__noticia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    margin-right: 3vw;
+ }
 
 .section__noticia{
     display: flex;
@@ -27,10 +23,13 @@
 
 }
 
-.contendor__noticia{
+.contenedor__noticia{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contenedor__noticia img{
+    padding: 1vw;
 }
 
 
