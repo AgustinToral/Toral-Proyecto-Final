@@ -1,0 +1,18 @@
+.producto{
+    width: 20vw;
+    border: solid 1vw;
+}
+
+.section__productos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+.boton{
+    background-color: whitesmoke;
+    display: flex;
+   justify-content: center;
+   border: solid 1px;
+}
