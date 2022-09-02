@@ -1,26 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 body {
   background-color: bisque;
 }
 
-.titulo-1 {
-  color: crimson;
-  background-color: black;
-  width: 165px;
-  font-style: italic;
-  font-weight: bolder;
-}
-
 .cabecera {
-  background: black;
+  position: sticky;
+  top: 0px;
+  font-family: "Permanent Marker", cursive;
+  font: white !important;
+  opacity: 75%;
 }
 
-.cabecera__pagina {
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+.navbar-brand {
+  color: gold !important;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 .cabecera__pagina a {
@@ -38,23 +35,38 @@ body {
 }
 
 .imagen__hvsa {
-  width: 98vw;
+  width: 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 525px) {
+  .imagen__hvsa {
+    width: 100vw;
+    height: 50vh !important;
+  }
+}
+.flex__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  color: gold;
+  font-family: "Permanent Marker", cursive;
+}
+
+.carousel-general {
+  height: 60vh;
 }
 
 .imagen__hyogavscamus {
-  width: 15vw;
+  width: 10vw;
 }
 
 .imagen__manga {
-  width: 15vw;
+  width: 10vw;
 }
 
 .imagen__noticia__inicio {
-  width: 15vw;
-}
-
-.imagen__ventas {
-  width: 15vw;
+  width: 10vw;
 }
 
 .flex__imagenes {
@@ -63,16 +75,54 @@ body {
   align-items: center;
 }
 
-.flex__titulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+.twitter-icon {
+  width: 10px;
+}
+
+.twitter-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+.instagram-icon {
+  width: 10px;
+}
+
+.instagram-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+.footer-logo {
+  display: none;
+}
+
+.footer-logo2 {
+  width: 8vw;
+  display: block;
+  justify-content: center;
+}
+
+.datos-contacto {
+  height: -1vh !important;
+  font-family: "Kanit", sans-serif;
+  font-size: 1vh;
+  color: white;
 }
 
 .imagen-noticia1 {
