@@ -5,125 +5,230 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>PERSONAJES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Personajes</title>
 </head>
 <body>
 
-    <header class="cabecera">
-  
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Saint Seiya wiki & shop</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../paginas/personajes.html">Personajes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../paginas/obras.html">Obras</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../paginas/noticias.html">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../paginas/ventas.html">Ventas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    </header>
+  <header class="cabecera bg-dark d-flex justify-content-around position-sticky" style="height: 8vh;">
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid bg-dark">
+        <div>
+          <a class="navbar-brand" href="../index.html">Saint Seiya wiki & shop</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="personajes.html">Personajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="obras.html">Obras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ventas.html">Ventas</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
       
         <main>
-                
-            <section id="dorados">
-                <h2 class="titulo__dorado">Santos Dorados</h2>
-                <img src="../multimedia/dorados2.jpg" alt="caballeros-dorados" class="imagen__dorados">
-                <p>Los caballeros dorados es la orden más poderosa del ejército de Athena, gracias al manejo del último cosmos, el séptimo sentido. Se componen principalmente por 12 guerreros que portan armaduras doradas que representan los signos de las constelaciones de la eclíptica, curva por donde se traslada el sol. Son los encargados de custodiar los 12 templos del santuario donde comanda athena y los caballeros. Sus armaduras están hechas de oricalco, polvo de estrellas y bañadas de la luz del sol, lo cual le dan su tonalidad dorada y a la vez son las más resistentes capaces de aguantar el cero absoluto.</p>
+          <div class="titulo__dorado bg-dark">
+            <h2 >Santos Dorados</h2>
+          </div>
 
-                    <article id="mu">
-                        <h3 class="titulo__dorado__mu">Primera casa - <span>Mu De Aries</span></h3>
-                        <img src="../multimedia/Mu.jpg" alt="mu-aries" class="imagen__mu">
+          <section class="banner-personajes container" >
+            <img src="../multimedia/dorados2.jpg" alt="caballeros-dorados" class="imagen__dorados col-12">
+            <p class="texto-banner-personajes">Los caballeros dorados es la orden más poderosa del ejército de Athena, gracias al manejo del último cosmos, el séptimo sentido. Se componen principalmente por 12 guerreros que portan armaduras doradas que representan los signos de las constelaciones de la eclíptica, curva por donde se traslada el sol. Son los encargados de custodiar los 12 templos del santuario donde comanda athena y los caballeros. Sus armaduras están hechas de oricalco, polvo de estrellas y bañadas de la luz del sol, lo cual le dan su tonalidad dorada y a la vez son las más resistentes capaces de aguantar el cero absoluto.
+            </p>
+          </section>
 
-                        <p class="colornegro">Caballero de la primera casa, portador de la armadura dorada de aries. Maestro de la herrería y reparación de las armaduradas de sus compañeros. De personalidad tranquila y pacifica, es de recurrir a la violecia en momentos extemos. De los mas inteligentes de los 12 calleros dorados. Conocedor de técnicas tanto ofensivas como la <a href="https://www.youtube.com/watch?v=QcdnuGG4d1g&ab_channel=shakadevirgo3000" target="_blank">EXTINCION ESTELAR</a> y defensivas como el <a href="https://www.youtube.com/watch?v=o54aqRxYiYw&ab_channel=OnlyCaballerosZodiaco" target="_blank">MURO DE CRISTAL</a>. Alumno del anterior caballero de aries y ultimo líder de los santos de Athena Shion de Aries.
-                    
-                    </article>
+<!-- Aprovechando que el grid system de Bootstrap tiene 12 columnas, separé 2 rows de 6 para hacer una preview de los caballeros, en vez de hacer una grid común, que resultaría más inconveniente de realizar. -->
+          <section class="personajes-prview container-fluid">
+            <div class="row preview-columna-1">
+              <div class="imagen-mu col-2">
+                <a href="#mu">
+                  <img src="../multimedia/Mu.jpg" alt="muPreview">
+                </a>
+              </div>
+              <div class="imagen-aldebaran col-2">
+                <a href="#aldebaran"><img src="../multimedia/Aldebaran.jpg" alt="aldebaranPreview"></a>
+              </div>
+              <div class="imagen-saga col-2">
+                <a href="#saga"><img src="../multimedia/Saga.jpg" alt="sagaPreview"></a>
+              </div>
+              <div class="imagen-mascara col-2">
+                <a href="#mascara">  <img src="../multimedia/Mascara.jpg" alt="aioriaPreview"></a>
+              </div>
+              <div class="imagen-aioria col-2">
+                <a href="#aioria"> <img src="../multimedia/Aioria.jpg" alt="aioriaPreview"></a>
+              </div>
+              <div class="imagen-shaka col-2">
+                <a href="#shaka"> <img src="../multimedia/Shaka.jpg" alt="shakaPreview"></a>
+              </div>
+            </div>
+            <div class="row preview-columna-2">
+              <a href=""></a>
+              <div class="imagen-dohko col-2">
+                <a href="#dohko"><img src="../multimedia/Dohko.jpg" alt="dohkoPreview"></a>
+              </div>
+              <div class="imagen-milo col-2">
+                <a href="#milo"><img src="../multimedia/Milo.jpg" alt="miloPreview"></a>
+              </div>
+              <div class="imagen-aioros col-2">
+                <a href="#aioros"><img src="../multimedia/Aioros.jpg" alt="aiorosPreview"></a>
+              </div>
+              <div class="imagen-shura col-2">
+                <a href="#shura"><img src="../multimedia/Shura.jpg" alt="shuraPreview"></a>
+              </div>
+              <div class="imagen-camus col-2">
+                <a href="#camus"><img src="../multimedia/Camus.jpg" alt="camusPreview"></a>
+              </div>
+              <div class="imagen-afrodita col-2">
+                <a href="#afrodita"><img src="../multimedia/Afrodita.jpg" alt="afroditaPreview"></a>
+              </div>
+            </div>
+          </section>
+          
 
-                    <article id="aldebaran">
-                        <h3 class="titulo__dorado__aldebaran">Segunda casa - <span>Aldebaran De Tauro</span></h3>
-                        <img src="../multimedia/Aldebaran.jpg" alt="aldebaran-tauro" class="imagen__aldebaran">
+            <section class="dorados">
 
-                        <p class="colornegro"> Guardian de la segunda casa del santuario. El más fuerte físicamente de los 12 caballeros dorados. El más sereno y alegre de sus compañeros. Su técnica conlleva en mantener una postura firme en la cual siempre tiene su defensa en alto y al momento de ejecutarla libera el <a href="https://www.youtube.com/watch?v=2KqgUZemguU&ab_channel=SaintSeiyaLatinoSaintSeiyaLatino" target="_blank">GRAN CUERNO</a> un golpe de energía a tal velocidad que sus enemigos no pueden esquivar, concediéndole una victoria inmediata.
+                    <div calss="mu" id="mu">
+                        <div class="mu-content row justify-content-around align-items-center">
+                          <img src="../multimedia/Mu.jpg" alt="mu-aries" class="imagen__mu col-4">
+                          <div class="mu-text col-4">
+                            <h3 class="titulo__dorado__mu">Primera casa - <span>Mu De Aries</span></h3>
+                            <p class="colornegro">Caballero de la primera casa, portador de la armadura dorada de aries. Maestro de la herrería y reparación de las armaduradas de sus compañeros. De personalidad tranquila y pacifica, es de recurrir a la violecia en momentos extemos. De los mas inteligentes de los 12 calleros dorados. Conocedor de técnicas tanto ofensivas como la <a href="https://www.youtube.com/watch?v=QcdnuGG4d1g&ab_channel=shakadevirgo3000" target="_blank">EXTINCION ESTELAR</a> y defensivas como el <a href="https://www.youtube.com/watch?v=o54aqRxYiYw&ab_channel=OnlyCaballerosZodiaco" target="_blank">MURO DE CRISTAL</a>. Alumno del anterior caballero de aries y ultimo líder de los santos de Athena Shion de Aries.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="aldebaran" id="aldebaran">
+                      <div class="aldebaran-content row justify-content-around align-items-center">
+                        <img src="../multimedia/Aldebaran.jpg" alt="aldebaran-tauro" class="imagen__aldebaran col-4">
+                        <div class="mu-text col-4">
+                          <h3 class="titulo__dorado__aldebaran">Segunda casa - <span>Aldebaran De Tauro</span></h3>
+                          <p class="colornegro"> Guardian de la segunda casa del santuario. El más fuerte físicamente de los 12 caballeros dorados. El más sereno y alegre de sus compañeros. Su técnica conlleva en mantener una postura firme en la cual siempre tiene su defensa en alto y al momento de ejecutarla libera el <a href="https://www.youtube.com/watch?v=2KqgUZemguU&ab_channel=SaintSeiyaLatinoSaintSeiyaLatino" target="_blank">GRAN CUERNO</a> un golpe de energía a tal velocidad que sus enemigos no pueden esquivar, concediéndole una victoria inmediata.
                         </p>
-                    </article>
+                      </div>
+                      </div> 
+                      </div>
 
-                    <article id="saga">
-                        <h3 class="titulo__dorado__saga">Tercera casa - <span>Saga De Geminis</span></h3>
-                        <img src="../multimedia/Saga.jpg" alt="saga-geminis" class="imagen__saga">
-                        <img src="../multimedia/patriarca.jpg" alt="gran-patriarca" class="imagen__saga">
+                    <div class="saga" id="saga">
+                      <div class="saga-content row  align-items-center">
+                        <img src="../multimedia/Saga.jpg" alt="saga-geminis" class="imagen__saga col-4">
+                        <img src="../multimedia/patriarca.jpg" alt="gran-patriarca" class="imagen__saga col-4">
+                      
+                        <div class="saga-text col-4">
+                          <h3 class="titulo__dorado__saga">Tercera casa - <span>Saga De Geminis</span></h3>
+                          <p class="colornegro">Adorado como un dios nacido en la tierra, Saga es el caballero guardian de la tercera casa del santuario. Es considerado como el mas poderoso de sus compañeros como todos los geminis que nacieron a traves de la historia. A pesar de su personalidad bondadosa, Saga oculta un lado oscuro que le es dificil de controlar, lo que a causado el sufrimiento de sus pares por obtener el poder absoluto del santuario. Tras perder la oportunidad de convertirce el sucesor de Shion de Aries como proximo Gran Patriarca, su lado oscuro se apodera de el, asesinando a su maestro y querer matar la reencarnacion de la diosa athena, pero Aioros de Sagitario lo descubre en el acto y rescata la bebe haciendo que huya con ella. Saga con las tunicas y mascara del patriarca tilda a Aioros de traidor haciendo que sus compañeros le de cazan y acaben con el, dejandolo como el lider del santuario. Saga posee poderosas habilidad como <a href="https://www.youtube.com/watch?v=rjDCvIoWi24&ab_channel=oosveluzolevso" target="_blank">SATAN IMPERIAL</a>que puede corromper la mente de su victima.<a href="https://www.youtube.com/watch?v=g2xxA_gz8GM&t=10s&ab_channel=DaniManriquez" target="_blank">OTRA DIMENSION</a> capaz de alterar el espacio a su alredor y enviar a sus victimas a otra realidad o lugar. Y su tecnica mas poderosa <a href="https://www.youtube.com/watch?v=EeR0MpgqOlc&ab_channel=CelCoraline" target="_blank">EXPLOSION DE GALAXIAS</a>  </p>
+                      </div>
+                    </div>
+                </div>
 
-                        <p class="colornegro">Adorado como un dios nacido en la tierra, Saga es el caballero guardian de la tercera casa del santuario. Es considerado como el mas poderoso de sus compañeros como todos los geminis que nacieron a traves de la historia. A pesar de su personalidad bondadosa, Saga oculta un lado oscuro que le es dificil de controlar, lo que a causado el sufrimiento de sus pares por obtener el poder absoluto del santuario. Tras perder la oportunidad de convertirce el sucesor de Shion de Aries como proximo Gran Patriarca, su lado oscuro se apodera de el, asesinando a su maestro y querer matar la reencarnacion de la diosa athena, pero Aioros de Sagitario lo descubre en el acto y rescata la bebe haciendo que huya con ella. Saga con las tunicas y mascara del patriarca tilda a Aioros de traidor haciendo que sus compañeros le de cazan y acaben con el, dejandolo como el lider del santuario. Saga posee poderosas habilidad como <a href="https://www.youtube.com/watch?v=rjDCvIoWi24&ab_channel=oosveluzolevso" target="_blank">SATAN IMPERIAL</a>que puede corromper la mente de su victima.<a href="https://www.youtube.com/watch?v=g2xxA_gz8GM&t=10s&ab_channel=DaniManriquez" target="_blank">OTRA DIMENSION</a> capaz de alterar el espacio a su alredor y enviar a sus victimas a otra realidad o lugar. Y su tecnica mas poderosa <a href="https://www.youtube.com/watch?v=EeR0MpgqOlc&ab_channel=CelCoraline" target="_blank">EXPLOSION DE GALAXIAS</a>  </p>
-                </article>
+                <div class="mascara-de-muerte" id="mascara">
+                  <div class="mascara-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Mascara.jpg" alt="Mascara-cancer" class="imagen__mascara col-4">
+                    <div class="mascara-text col-4">
+                      <h3 class="titulo__dorado__mascara"> Cuarta casa - <span>Mascara De Muerde De Cancer</span></h3>
+                    
+                      <p class="colornegro">El caballero que rige la Cuarta casa, conocido como el mas despiadado, es Mascara De Muerte. Con un corazon lleno de maldad, Mascara le gusta sembrar el caos, asesina por placer sin importar quien sea su victima, sea inocente o no, tras hacer dichoso acto transforma los rostros de sus victimas en mascaras que pasan hacer parte de la decoracion de susodicha casa del santuario. Mascara tiene la habilidad <a href="https://www.youtube.com/watch?v=S47TAfXj3RQ&ab_channel=LuisGomez" target="_blank">ONDAS INFERNALES</a> donde concentra toda su energia en la punta de su dedo y la desprende como un rayo blanco, que al impartar contra su rival lo envuelve en un aura que le desprende el alma de su cuerpo, dejando un cuerpo inerte y el alma el llevada Colina de Yomotsu, la frontera del mundo del mundo de los vivos y el mundo de los muertos</p> 
+                    </div>
+                  </div>
+                </div>
 
-                <article id="mascara-de-muerte">
-                    <h3 class="titulo__dorado__mascara"> Cuarta casa - <span>Mascaca De Muerde De Cancer</span></h3>
-                    <img src="../multimedia/Mascara.jpg" alt="Mascara-cancer" class="imagen__mascara">
-                    <p class="colornegro">El caballero que rige la Cuarta casa, conocido como el mas despiadado, es Mascara De Muerte. Con un corazon lleno de maldad, Mascara le gusta sembrar el caos, asesina por placer sin importar quien sea su victima, sea inocente o no, tras hacer dichoso acto transforma los rostros de sus victimas en mascaras que pasan hacer parte de la decoracion de susodicha casa del santuario. Mascara tiene la habilidad <a href="https://www.youtube.com/watch?v=S47TAfXj3RQ&ab_channel=LuisGomez" target="_blank">ONDAS INFERNALES</a> donde concentra toda su energia en la punta de su dedo y la desprende como un rayo blanco, que al impartar contra su rival lo envuelve en un aura que le desprende el alma de su cuerpo, dejando un cuerpo inerte y el alma el llevada Colina de Yomotsu, la frontera del mundo del mundo de los vivos y el mundo de los muertos</p>
-                </article>
+                <div class="aioria" id="aioria">
+                  <div class="aioria-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Aioria.jpg" alt="Aioria-leo" class="imagen__aioria col-4">
+                  
+                    <div class="aioria-text col-4">
+                      <h3 class="titulo__dorado__aioria"> Quinta casa - <span>Aioria De Leo</span></h3>
+                      <p class="colornegro">Noble y valiente, Aioria se encarga de defender la quinta casa del santuario. Siempre dispuesto a luchar por la justicia tiene un carácter calmado y servicial la mayoría del tiempo, es fácil de tratar entre sus camaradas, pero sin embargo en situaciones de peligro o una amenaza, toma un carácter impulsivo, violento y agresivo, que no dudarán en atacar ante la menor provocación. Hermano menor del Caballero Aioros De Sagitario, que tras ser tildado de traidor buscara la forma de limpiar el nombre de su hermano mayor. Aioria se centra en utilizar la electricidad como medio de ataque, concentrado grandes cantidades de energía en su puño y liberando todo en una onda choques que ataca a todo lo que se cruza desde varios ángulos, ese ataque se llama <a href="https://www.youtube.com/watch?v=_Oi0LekazOU&ab_channel=Juniorts" target="_blank">PLASMA RELAMPAGO</a>.</p>
+                    </div>
+                  </div>
+                </div>
 
-                <article id="aioria">
-                    <h3 class="titulo__dorado__aioria"> Quinta casa - <span>Aioria De Leo</span></h3>
-                    <img src="../multimedia/Aioria.jpg" alt="Aioria-leo" class="imagen__aioria">
-                    <p class="colornegro">Noble y valiente, Aioria se encarga de defender la quinta casa del santuario. Siempre dispuesto a luchar por la justicia tiene un carácter calmado y servicial la mayoría del tiempo, es fácil de tratar entre sus camaradas, pero sin embargo en situaciones de peligro o una amenaza, toma un carácter impulsivo, violento y agresivo, que no dudarán en atacar ante la menor provocación. Hermano menor del Caballero Aioros De Sagitario, que tras ser tildado de traidor buscara la forma de limpiar el nombre de su hermano mayor. Aioria se centra en utilizar la electricidad como medio de ataque, concentrado grandes cantidades de energía en su puño y liberando todo en una onda choques que ataca a todo lo que se cruza desde varios ángulos, ese ataque se llama <a href="https://www.youtube.com/watch?v=_Oi0LekazOU&ab_channel=Juniorts" target="_blank">PLASMA RELAMPAGO</a>.</p>
-                </article>
+                <div class="shaka" id="shaka">
+                  <div class="shaka-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Shaka.jpg" alt="Shaka-virgo" class="imagen__shaka col-4">
 
-                <article id="shaka">
-                    <h3 class="titulo__dorado__shaka"> Sexta casa - <span>Shaka De Virgo</span></h3>
-                    <img src="../multimedia/Shaka.jpg" alt="Shaka-virgo" class="imagen__shaka">
-                    <p class="colornegro">El hombre mas cercano a los dioses, Shaka lidera la sexta casa. Sabio e inteligente Shaka tiene un excelente manejo de su cosmos, privandose su sentido de la vista shaka logra cumular grandes cantidades de energia que al momento de abrirlos es capaz de liberar su habilidad mas poderosa, <a href="https://www.youtube.com/watch?v=CVYllp1eo38&ab_channel=MundoAnime" target="_blank">EL TESORO DEL CIELO</a>, con la capacidad de borrarle los 5 sentidos a sus enemigos. Tambien cuenta con una habilidad que le permite entrar en batalla sin la necesidad abrir los ojos que es <a href="https://www.youtube.com/watch?v=zokxAVloAYQ&ab_channel=ShiruePalaciosHernandez" target="_blank">LOS 6 SAMSARA</a> que le permite al inidividuo desprender su alma, dejando un cascaron vacio y reencarnar dicha alam en uno de los 6 mundos que se le ofrece, dependiendo tambien de los actos que realizo en vida.</p>
-                </article>
+                    <div class="shaka-text col-4">
+                      <h3 class="titulo__dorado__shaka"> Sexta casa - <span>Shaka De Virgo</span></h3>  
+                      <p class="colornegro">El hombre mas cercano a los dioses, Shaka lidera la sexta casa. Sabio e inteligente Shaka tiene un excelente manejo de su cosmos, privandose su sentido de la vista shaka logra cumular grandes cantidades de energia que al momento de abrirlos es capaz de liberar su habilidad mas poderosa, <a href="https://www.youtube.com/watch?v=CVYllp1eo38&ab_channel=MundoAnime" target="_blank">EL TESORO DEL CIELO</a>, con la capacidad de borrarle los 5 sentidos a sus enemigos. Tambien cuenta con una habilidad que le permite entrar en batalla sin la necesidad abrir los ojos que es <a href="https://www.youtube.com/watch?v=zokxAVloAYQ&ab_channel=ShiruePalaciosHernandez" target="_blank">LOS 6 SAMSARA</a> que le permite al inidividuo desprender su alma, dejando un cascaron vacio y reencarnar dicha alam en uno de los 6 mundos que se le ofrece, dependiendo tambien de los actos que realizo en vida.</p>
+                    </div>
+                  </div>
+                </div>
 
-                <article id="dohko">
+
+
+                <div class="dohko" id="dohko">
+                  <div class="dohko-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Dohko.jpg" alt="Dohko-libra" class="imagen__dohoko col-4">
+                    <div class="dohko-text col-4">
                     <h3 class="titulo__dorado__dohko"> Septima casa - <span>Dohko De Libra</span></h3>
-                    <img src="../multimedia/Dohko.jpg" alt="Dohko-libra" class="imagen__dohoko">
                     <p class="colornegro">El legendario caballero de Libra, es el encargado de vigilar la Torre Masei donde alverga las almas de Los Espectros, el ejercito de Hades, hasta que se rompa el sello que los contiene. sobrevivio a la guerra santa de hace 243 años contra el ejercito de Hades y fue bendecido con el Misopethamenos habilidad de los dioses que permite dalre a los mortales para que su corazon se mantenga joven haciendo que solo lata una vez al dia, transformando los 243 años en dias. Dohko tambien es el encargado de portar las armas de Libra, que se compone en un par de escudos, espadas, lanzas, tonfas, nunchacos y barras triples, que solo se le tiene permitido el uso en casos de extrema necesidad, ya que Athena le prohibe el uso de armas a sus caballeros. Dohko posee una de las habilades mas poderosas <a href="https://www.youtube.com/watch?v=Dhq0GqBytN8&ab_channel=Se%C3%B1orBasty" target="_blank">LOS 100 DRAGONES DE ROZAN</a> manifestando una orden de dragones como una onda de ataques consecutivos.</p>
-                </article>
+                    </div>
+                   </div>
+                </div>
 
-                <article id="milo">
-                    <h3 class="titulo__dorado__milo"> Octava casa - <span>Milo De Escorpio</span></h3>
-                    <img src="../multimedia/Milo.jpg" alt="Milo-escorpio" class="imagen__milo">
-                    <p class="colornegro">Milo siempre está seguro de sí mismo, más tranquilo que la mayoría de los otros Santos Dorados. Él es de una naturaleza violenta y apasionada, pero siempre preserva el control de sí mismo. Milo jamás muestra sus emociones, siempre las disimula detrás de una máscara de inalterabilidad y absoluta calma. Es esta misma calma que lo hace un temible adversario durante el combate. Milo jamás duda y no conoce el titubeo. Sus pensamientos y sus actos están armonizados perfectamente. Está sincronización es particularmente obvia durante el combate. Milo se centra en el combate cuerpo a cuerpo, una de sus habilidades es Restriccion, usandodo sus poderes psiquicos paraliza a sus enemigos. Despues tiene su ataque principal <a href="https://www.youtube.com/watch?v=WR3sK8vK5Fc&ab_channel=mundozodiacalsaintSeiya">LA AGUJA ESCARLATA</a>, con la uña de su dedo indice con forma de aguijon Milo perfora el cuerpo de sus enemigos ,atacando al sistema nervioso generando una paralisis y sangrado leve, formando en el la constelacion de Escorpio con quince ataques rapidos, para asi al finalizar lanzar su ataque definitivo <a href="https://www.youtube.com/watch?v=b-I54kWXUKE&ab_channel=AkistariFelix">LA AGUJA ESCARLATA ANTARES</a> que causara una muerte inmediata.</p>
-                </article>
+                <div class="milo" id="milo">
+                  <div class="milo-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Milo.jpg" alt="Milo-escorpio" class="imagen__milo col-4">
+                    <div class="milo-text col-4">
+                      <h3 class="titulo__dorado__milo"> Octava casa - <span>Milo De Escorpio</span></h3>  
+                      <p class="colornegro">Milo siempre está seguro de sí mismo, más tranquilo que la mayoría de los otros Santos Dorados. Él es de una naturaleza violenta y apasionada, pero siempre preserva el control de sí mismo. Milo jamás muestra sus emociones, siempre las disimula detrás de una máscara de inalterabilidad y absoluta calma. Es esta misma calma que lo hace un temible adversario durante el combate. Milo jamás duda y no conoce el titubeo. Sus pensamientos y sus actos están armonizados perfectamente. Está sincronización es particularmente obvia durante el combate. Milo se centra en el combate cuerpo a cuerpo, una de sus habilidades es Restriccion, usandodo sus poderes psiquicos paraliza a sus enemigos. Despues tiene su ataque principal <a href="https://www.youtube.com/watch?v=WR3sK8vK5Fc&ab_channel=mundozodiacalsaintSeiya">LA AGUJA ESCARLATA</a>, con la uña de su dedo indice con forma de aguijon Milo perfora el cuerpo de sus enemigos ,atacando al sistema nervioso generando una paralisis y sangrado leve, formando en el la constelacion de Escorpio con quince ataques rapidos, para asi al finalizar lanzar su ataque definitivo <a href="https://www.youtube.com/watch?v=b-I54kWXUKE&ab_channel=AkistariFelix">LA AGUJA ESCARLATA ANTARES</a> que causara una muerte inmediata.</p>
+                    </div>
+                  </div>
+                </div>
 
-                <article id="aioros">
-                    <h3 class="titulo__dorado__aioros"> Novena casa - <span>Aioros De Sagitario</span></h3>
-                    <img src="../multimedia/Aioros.jpg" alt="Aioros-sagitario" class="imagen__aioros">
-                    <p class="colornegro">Con un gran sentido del deber, poder, conocimento y sabiduria, Aioros era el legitimo sucesor del patriarca Shion. Tras la rebelion de Saga De Geminis, Aioros escapa con la reencarnacion de la diosa Athena en brazos mientras es perseguido por los que alguna vez llamo compañeros. Aioros tuvo un enfrentamiento contra su compañero Shura De Capricornio que fue envido a matarlo, sin la intencion de pelear contra el Aioros es gravemente herido pero logra escapar con la bebe y ponerla a salvo entregandosela a un turista que cuidaria de ella. Aioros posea habilidades extraordinarias como el RELAMPAGO ATOMICO donde concentra toda su energia en su puño y la libera como un rayo. Y su tecnica mas poderosa que es gracias a su armadura es LA FLECHA DORADA DE SAGITARIO tiene la capacidad de matar hasta un dios.</p>
-                </article>
+                <div class="aioros" id="aioros">
+                  <div class="aioros-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Aioros.jpg" alt="Aioros-sagitario" class="imagen__aioros col-4">
+                    <div class="aioros-text col-4">
+                      <h3 class="titulo__dorado__aioros"> Novena casa - <span>Aioros De Sagitario</span></h3>
+                      <p class="colornegro">Con un gran sentido del deber, poder, conocimento y sabiduria, Aioros era el legitimo sucesor del patriarca Shion. Tras la rebelion de Saga De Geminis, Aioros escapa con la reencarnacion de la diosa Athena en brazos mientras es perseguido por los que alguna vez llamo compañeros. Aioros tuvo un enfrentamiento contra su compañero Shura De Capricornio que fue envido a matarlo, sin la intencion de pelear contra el Aioros es gravemente herido pero logra escapar con la bebe y ponerla a salvo entregandosela a un turista que cuidaria de ella. Aioros posea habilidades extraordinarias como el RELAMPAGO ATOMICO donde concentra toda su energia en su puño y la libera como un rayo. Y su tecnica mas poderosa que es gracias a su armadura es LA FLECHA DORADA DE SAGITARIO tiene la capacidad de matar hasta un dios.</p>
+                    </div>  
+                  </div>              
+                </div>
 
-                <article id="shura">
-                    <h3 class="titulo__dorado__shura"> Decima casa - <span>Shura De Capricornio</span></h3>
-                    <img src="../multimedia/Shura.jpg" alt="shura-capricornio" class="imagen__shura">
-                    <p class="colornegro">Shura es quien se encarga de defender la casa de Capricornio. De áracter inflexible y honorable, consideraba a Aiolos y Saga sus superiores, mas fue indignado al declarársele traidor al caballero de Sagitario. Desde entonces, acató su lealtad hacia saga a pesar de conocer sus intenciones. Shura es devoto a Saga de Gemini por su ideal de proteger al más fuerte para gobernar el mundo. El repertorio de tecnicas que utiliza son: Salto de Piedra  es una técnica del Santo de Capricornio que se basa en el uso de sus piernas para contrarrestar un ataque aprovechando la fuerza de la técnica de su oponente o simplemente dando una poderosa patada al adversario. Y la tecnica que mas lo identifica es EXCALIBUR, utilizando su brazo derecho como una espada lanza cortes que puede separar cosas a nivel molecular. </p>
-                </article>
+                <div class="shura" id="shura">
+                  <div class="shura-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Shura.jpg" alt="shura-capricornio" class="imagen__shura col-4">
+                    <div class="shura-text col-4">
+                      <h3 class="titulo__dorado__shura"> Decima casa - <span>Shura De Capricornio</span></h3>
+                      <p class="colornegro">Shura es quien se encarga de defender la casa de Capricornio. De áracter inflexible y honorable, consideraba a Aiolos y Saga sus superiores, mas fue indignado al declarársele traidor al caballero de Sagitario. Desde entonces, acató su lealtad hacia saga a pesar de conocer sus intenciones. Shura es devoto a Saga de Gemini por su ideal de proteger al más fuerte para gobernar el mundo. El repertorio de tecnicas que utiliza son: Salto de Piedra  es una técnica del Santo de Capricornio que se basa en el uso de sus piernas para contrarrestar un ataque aprovechando la fuerza de la técnica de su oponente o simplemente dando una poderosa patada al adversario. Y la tecnica que mas lo identifica es EXCALIBUR, utilizando su brazo derecho como una espada lanza cortes que puede separar cosas a nivel molecular. </p>
+                    </div>
+                  </div>
+                </div>
 
-                <article id="camus">
-                    <h3 class="titulo__dorado__camus"> Onceava casa - <span>Camus De Acuario</span></h3>
-                    <img src="../multimedia/Camus.jpg" alt="camus-acuario" class="imagen__camus">
-                    <p class="colornegro">Camus es el más frío de los doce dorados, pero su frialdad no se basa en suprimir sus sentimientos si no en controlarlos. Nunca hemos visto a Camus hacer más que un gesto de esfuerzo, durante la batalla no se exalta, no grita, no se esfuerza, siempre permanece calmado, frío y calculador. Lucha por lo que cree correcto y está dispuesto a todo para defender sus ideales. Camus utiliza el frio como un arma. Su ataque basico es <a href="https://www.youtube.com/watch?v=BAF0tFL-EsU&ab_channel=Radamanthys9589">POLVO DE DIAMANTES</a> rafaga de aire frio capaz de congelar. Su segunda tecnica es el <a href="https://www.youtube.com/watch?v=788Wv07PxMc&ab_channel=SeidouTakyzawagames">ATAUD DE HIELO</a>quien sea que fuese encerrado ahi no podra escapar y vivira eternamente congelado. Y la tecnica mas poderosa de Camus, capaz de llegar al Cero absoluto <a href="https://www.youtube.com/watch?v=Pi-EsPTNnKw&t=21s&ab_channel=GustavoEgas">LA EJECUCION AURORA</a>, capaz de destruir las armaduras doradas y todo que se interponga en su camino.</p>
-                </article>
+                <div class="camus" id="camus">
+                  <div class="camus-content row justify-content-around align-items-center">
+                    <img src="../multimedia/Camus.jpg" alt="camus-acuario" class="imagen__camus col-4">
+                    <div class="camus-text col-4">
+                      <h3 class="titulo__dorado__camus"> Onceava casa - <span>Camus De Acuario</span></h3>
+                      <p class="colornegro">Camus es el más frío de los doce dorados, pero su frialdad no se basa en suprimir sus sentimientos si no en controlarlos. Nunca hemos visto a Camus hacer más que un gesto de esfuerzo, durante la batalla no se exalta, no grita, no se esfuerza, siempre permanece calmado, frío y calculador. Lucha por lo que cree correcto y está dispuesto a todo para defender sus ideales. Camus utiliza el frio como un arma. Su ataque basico es <a href="https://www.youtube.com/watch?v=BAF0tFL-EsU&ab_channel=Radamanthys9589">POLVO DE DIAMANTES</a> rafaga de aire frio capaz de congelar. Su segunda tecnica es el <a href="https://www.youtube.com/watch?v=788Wv07PxMc&ab_channel=SeidouTakyzawagames">ATAUD DE HIELO</a>quien sea que fuese encerrado ahi no podra escapar y vivira eternamente congelado. Y la tecnica mas poderosa de Camus, capaz de llegar al Cero absoluto <a href="https://www.youtube.com/watch?v=Pi-EsPTNnKw&t=21s&ab_channel=GustavoEgas">LA EJECUCION AURORA</a>, capaz de destruir las armaduras doradas y todo que se interponga en su camino.</p>
+                    </div>
+                  </div>
+                </div>
 
-                <article id="afrodita">
-                    <h3 class="titulo__dorado__afrodita"> Doceava casa - <span>Afrodita De Picis</span></h3>
-                    <img src="../multimedia/Afrodita.jpg" alt="afrodita-picis" class="imagen__afrodita">
-                    <p class="colornegro">Considerado como el caballero mas hermoso de los 88 caballerosde Athena, Afrodita es el ultimo guardian de las 12 casas dentro del santuario. Se muestra como un guerrero orgulloso de su fuerza, fue leal a Saga, pues cree que sólo el más fuerte es capaz de mantener la paz, así como ha habido paz en el Santuario durante el mandato de Saga. Del mismo modo, también es un fiel creyente de la ley del más fuerte, en la que el más débil debe doblegarse ante el más poderoso, y en lo sucesivo termina por aceptar el mandato de Saga, siendo uno de los pocos Caballeros dorados, junto con Mascara y Shura, que saben acerca de la conspiración y usurpación de su colega. Afrodita se centra en el uso de tres tipos de rosas que pasan a ser parte de su repertorio de habilidades. La primera de ellas es <a href="https://www.youtube.com/watch?v=c2WhiH65Sz4&ab_channel=AnimeSaintSeiya2">LA ROSA DEMONIACA REAL</a>, que clavarse al enemigo inyecta un veneno que ataca al sistema nervioso que va privando a la victima de sus 5 sentidos. Su segunda rosa es <a href="https://www.youtube.com/watch?v=uBmwSVzUs0M&ab_channel=SaintSeiyaLatinoSaintSeiyaLatino">LA ROSA PIRAÑA</a>, con finalidad de destruir todo a lo que impacte. Y la ultima rosa y la mas mortal es <a href="https://www.youtube.com/watch?v=wU3Fel38vd4&ab_channel=SaintSeiyaLatinoSaintSeiyaLatino">LA ROSA SANGRIENTA</a> que absorbe la sangre al impactar.</p>
-                </article>
+                <div class="afrodita" id="afrodita">
+                  <div class="afrodita-content row justify-content-around align-items-center">
+                  <img src="../multimedia/Afrodita.jpg" alt="afrodita-picis" class="imagen__afrodita col-4">
+                    <div class="afrodita-text col-4">
+                      <h3 class="titulo__dorado__afrodita"> Doceava casa - <span>Afrodita De Picis</span></h3>
+                      <p class="colornegro">Considerado como el caballero mas hermoso de los 88 caballerosde Athena, Afrodita es el ultimo guardian de las 12 casas dentro del santuario. Se muestra como un guerrero orgulloso de su fuerza, fue leal a Saga, pues cree que sólo el más fuerte es capaz de mantener la paz, así como ha habido paz en el Santuario durante el mandato de Saga. Del mismo modo, también es un fiel creyente de la ley del más fuerte, en la que el más débil debe doblegarse ante el más poderoso, y en lo sucesivo termina por aceptar el mandato de Saga, siendo uno de los pocos Caballeros dorados, junto con Mascara y Shura, que saben acerca de la conspiración y usurpación de su colega. Afrodita se centra en el uso de tres tipos de rosas que pasan a ser parte de su repertorio de habilidades. La primera de ellas es <a href="https://www.youtube.com/watch?v=c2WhiH65Sz4&ab_channel=AnimeSaintSeiya2">LA ROSA DEMONIACA REAL</a>, que clavarse al enemigo inyecta un veneno que ataca al sistema nervioso que va privando a la victima de sus 5 sentidos. Su segunda rosa es <a href="https://www.youtube.com/watch?v=uBmwSVzUs0M&ab_channel=SaintSeiyaLatinoSaintSeiyaLatino">LA ROSA PIRAÑA</a>, con finalidad de destruir todo a lo que impacte. Y la ultima rosa y la mas mortal es <a href="https://www.youtube.com/watch?v=wU3Fel38vd4&ab_channel=SaintSeiyaLatinoSaintSeiyaLatino">LA ROSA SANGRIENTA</a> que absorbe la sangre al impactar.</p>
+                    </div>
+                  </div>
+                </div>
 
 
 
@@ -133,7 +238,48 @@
             </section>
 
 
+            <footer>
+              <div class="footer-container justify-content-between bg-dark">
+      
+                  <div class="redes-sociales"> 
+                      <div class="twitter">
+                          <img src="../multimedia/ticon.png" alt="Twitter Icon" class="twitter-icon">
+                          <a href="https://www.twitter.com" target= "_blank" class="twitter-link">Nuestro Twitter</a>
+                      </div>
+                      <br>
+                      <div class="instagram">
+                          <img src="../multimedia/iicon.png" alt="Instagram Icon" class="instagram-icon">
+                          <a href="https://www.instagram.com" target="_blank" class="instagram-link">Nuestro Instagram</a>
+                      </div>
+                  </div>
+                  
+      
+      
+                  
+      
+                  <div class="footer-logo-container2">
+                      <a href="index.html"><img src="../multimedia/logo.png" alt="logo" class="footer-logo2" >
+                      </a>
+                  </div>
+                  
+                  
+      
+              
+                  <div class="datos-contacto p-2"> 
+                      <p>
+                          seintseiyawikishop@ssmail.com <br> <br>
+                          
+                          +541169694200 <br> <br>
+                       
+                          Calle falsa 123, CABA
+                      </p>
+                  </div>
+              </div>
+          </footer>
+
+
         </main>
-    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

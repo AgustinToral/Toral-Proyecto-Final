@@ -1,63 +1,199 @@
 .titulo__dorado{
     color: gold;
+    font-family:'Permanent Marker', cursive;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagen__dorados{
-    width: 98vw;
+    width: 99vw;
+    height: 70vh;
 }
 
-#dorados{
+.banner-personajes p{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: gold;
+}
+
+
+
+.preview-columna-1 img{
+    width: 16vw !important;
+}
+
+.preview-columna-2 img{
+    width: 16vw !important;
+}
+
+
+
+
+
+
+
+
+
+.dorados{
     color: cornflowerblue;
 }
 
-#mu span{
-    color: violet;
+.mu-content p{
+    color: white
+}
+.mu-content h3{
+    color: plum;
 }
 
-#aldebaran span{
+.imagen__mu{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+
+
+.aldebaran-content p{
+    color: white
+}
+.aldebaran-content h3{
     color: burlywood;
 }
 
-#saga span{
-    color: blueviolet;
+.imagen__aldebaran{
+    height: 70vh;
+    width: 40vw;
+    
 }
 
-#mascara-de-muerte span{
+.saga-content p{
+    color: white
+}
+.saga-content h3{
+    color: blueviole;
+}
+
+.imagen__saga{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+.mascara-content p{
+    color: white
+}
+.mascara-content h3{
     color: darkblue;
 }
 
-#aioria span{
+.imagen__mascara{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+.aioria-content p{
+    color: white
+}
+.aioria-content h3{
     color: chocolate;
 }
 
-#shaka span{
-    color:goldenrod
+.imagen__aioria{
+    height: 70vh;
+    width: 40vw;
+    
 }
 
-#dohko span{
-    color: darkcyan;
+.shaka-content p{
+    color: white
+}
+.shaka-content h3{
+    color: goldenrod;
 }
 
-#milo span{
+.imagen__shaka{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+.dohko-content p{
+    color: white
+}
+.dohko-content h3{
+    color: darkcyan;}
+
+.imagen__dohko{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+.milo-content p{
+    color: white
+}
+.milo-content h3{
     color: darkorchid;
 }
 
-#aioros span{
-    color:peru
+.imagen__milo{
+    height: 70vh;
+    width: 40vw;
+    
 }
 
-#shura span{
-    color:tan
+.aioros-content p{
+    color: white
+}
+.aioros-content h3{
+    color:peru;
 }
 
-#camus span{
-    color:deepskyblue
+.imagen__aioros{
+    height: 70vh;
+    width: 40vw;
+    
 }
 
-#afrodita span{
+.shura-content p{
+    color: white
+}
+.shura-content h3{
+    color:tan;
+}
+
+.imagen__shura{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+.camus-content p{
+    color: white
+}
+.camus-content h3{
+    color:deepskyblue;
+}
+
+.imagen__camus{
+    height: 70vh;
+    width: 40vw;
+    
+}
+
+.afrodita-content p{
+    color: white
+}
+.afrodita-content h3{
     color: hotpink;
 }
 
-.colornegro{
-    color: black;
+.imagen__afrodita{
+    height: 70vh;
+    width: 40vw;
+    
 }
+
