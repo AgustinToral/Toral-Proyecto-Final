@@ -334,7 +334,7 @@ body {
 }
 
 .saga-content h3 {
-  color: blueviole;
+  color: blueviolet;
 }
 
 .imagen__saga {
@@ -493,6 +493,7 @@ body {
 
 .formulario {
   color: aliceblue;
+  font-family: "Kanit", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

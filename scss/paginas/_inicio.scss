@@ -1,3 +1,6 @@
+@import '../base/colores';
+@import '../base/fonts';
+
 body{
     background-color:  bisque;
 }
@@ -6,13 +9,13 @@ body{
 .cabecera{
     position: sticky;
     top: 0px;
-    font-family:'Permanent Marker', cursive;
+    font-family: $fontPrincipal;
     font: white !important;
     opacity: 75%;
     z-index: 1;
 }
 .navbar-brand {
-    color: gold !important;
+    color: $dorado !important;
 }
 .nav-link{
     color: white !important;
@@ -58,7 +61,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 12vh;
-    color: gold;
+    color: $dorado;
     font-family:'Permanent Marker', cursive;
 }
 
@@ -79,7 +82,7 @@ body{
 }
 
 .carousel-caption{
-    color: gold !important;
+    color: $dorado !important;
     background-color: black;
     opacity: 75%;
     
@@ -113,7 +116,7 @@ body{
 .twitter-link{
     text-decoration: none;
     color: white;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 .instagram-icon{
     width: 10px
@@ -122,7 +125,7 @@ body{
 .instagram-link{
     text-decoration: none;
     color: white;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .footer-logo{
@@ -132,15 +135,12 @@ body{
 .footer-logo2{
     width: 8vw;
     display: block;
-    
-    // margin-left: 50%;
-    // margin-right: 50%;
 }
 
 
 .datos-contacto{
     height: -1vh !important;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     font-size: 1vh;
     color: white;
 }

@@ -1,3 +1,6 @@
+@import '../base/colores';
+@import '../base/fonts';
+
 .manga-original{
     width: 15vw;
 }
@@ -36,7 +39,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .animeoriginal{
@@ -58,18 +61,18 @@
     color: aliceblue;
 }
 .contenedor__animetlc{
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 .contenedor__animeso{
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .contenedor__animeova{
-    font-family: 'Kanit', sans-serif; 
+    font-family: $fontKanit; 
 }
 
 .contenedor__anime{
-    font-family: 'Kanit', sans-serif; 
+    font-family: $fontKanit; 
 }
 
 .animehades{

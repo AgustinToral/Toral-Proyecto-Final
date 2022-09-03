@@ -1,3 +1,6 @@
+@import '../base/colores';
+@import '../base/fonts';
+
 .contenedor__productos{
     align-items: center;
     justify-content: space-around
@@ -16,6 +19,6 @@
 .consultas{
     color: aliceblue;
     font-size: 2vh;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     padding-left: 2vw;
 }

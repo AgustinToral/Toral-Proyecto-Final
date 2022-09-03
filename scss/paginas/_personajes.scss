@@ -1,6 +1,9 @@
+@import '../base/colores';
+@import '../base/fonts';
+
 .titulo__dorado{
     color: gold;
-    font-family:'Permanent Marker', cursive;
+    font-family: $fontPrincipal;
     height: 12vh;
     display: flex;
     justify-content: center;
@@ -14,8 +17,8 @@
 
 .banner-personajes p{
     text-align: center;
-    font-family: 'Kanit', sans-serif;
-    color: gold;
+    font-family: $fontKanit;
+    color: $dorado;
 }
 
 .preview-columna-1 img{
@@ -62,7 +65,7 @@
     color: white
 }
 .saga-content h3{
-    color: blueviole;
+    color: blueviolet;
 }
 
 .imagen__saga{
