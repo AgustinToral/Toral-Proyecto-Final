@@ -10,6 +10,7 @@ body {
   font-family: "Permanent Marker", cursive;
   font: white !important;
   opacity: 75%;
+  z-index: 1;
 }
 
 .navbar-brand {
@@ -164,6 +165,11 @@ body {
   padding: 1vw;
 }
 
+.section__noticia a {
+  font-family: "Kanit", sans-serif;
+  color: gold !important;
+}
+
 .manga-original {
   width: 15vw;
 }
@@ -184,12 +190,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: aliceblue;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 510px) {
+  .flex__manga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+  }
+}
 .contenedor__manga {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Kanit", sans-serif;
 }
 
 .animeoriginal {
@@ -207,7 +223,24 @@ body {
 .flex__anime {
   display: flex;
   flex-direction: row;
-  justify-content: first baseline;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.contenedor__animetlc {
+  font-family: "Kanit", sans-serif;
+}
+
+.contenedor__animeso {
+  font-family: "Kanit", sans-serif;
+}
+
+.contenedor__animeova {
+  font-family: "Kanit", sans-serif;
+}
+
+.contenedor__anime {
+  font-family: "Kanit", sans-serif;
 }
 
 .animehades {
@@ -432,26 +465,34 @@ body {
     height: 40vh;
   }
 }
-.producto {
-  width: 20vw;
-  border: solid 1vw;
-}
-
-.section__productos {
-  display: flex;
-  flex-direction: row;
+.contenedor__productos {
+  align-items: center;
   justify-content: space-around;
 }
 
-.boton {
-  background-color: whitesmoke;
+.row {
+  margin: 0 !important;
+}
+
+.flex__ventas {
   display: flex;
-  justify-content: center;
-  border: solid 1px;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.consultas {
+  color: aliceblue;
+  font-size: 2vh;
+  font-family: "Kanit", sans-serif;
+  padding-left: 2vw;
 }
 
 body {
   background-color: black !important;
+}
+
+.formulario {
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */

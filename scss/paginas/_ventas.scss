@@ -1,18 +1,21 @@
-.producto{
-    width: 20vw;
-    border: solid 1vw;
+.contenedor__productos{
+    align-items: center;
+    justify-content: space-around
 }
 
-.section__productos{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-
+.row{
+    margin: 0 !important;
 }
 
-.boton{
-    background-color: whitesmoke;
+.flex__ventas {
     display: flex;
-   justify-content: center;
-   border: solid 1px;
+    flex-direction: column;
+    gap: 1.5rem ;
+}
+
+.consultas{
+    color: aliceblue;
+    font-size: 2vh;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 2vw;
 }

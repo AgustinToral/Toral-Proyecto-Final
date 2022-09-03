@@ -17,12 +17,26 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: aliceblue;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 510px){
+    .flex__manga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    }
+}
+
+
+
 
 .contenedor__manga{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Kanit', sans-serif;
 }
 
 .animeoriginal{
@@ -40,7 +54,22 @@
 .flex__anime{
     display: flex;
     flex-direction:row;
-    justify-content:first baseline;
+    justify-content: center;
+    color: aliceblue;
+}
+.contenedor__animetlc{
+    font-family: 'Kanit', sans-serif;
+}
+.contenedor__animeso{
+    font-family: 'Kanit', sans-serif;
+}
+
+.contenedor__animeova{
+    font-family: 'Kanit', sans-serif; 
+}
+
+.contenedor__anime{
+    font-family: 'Kanit', sans-serif; 
 }
 
 .animehades{
